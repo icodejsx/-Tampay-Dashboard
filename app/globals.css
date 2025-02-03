@@ -84,5 +84,6 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+    background-color: rgb(247, 247, 247);
   }
 }

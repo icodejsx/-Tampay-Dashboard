@@ -18,17 +18,16 @@ import { IoIosFlash } from "react-icons/io"; // Menu items
 export function AppSidebar() {
   return (
     <Sidebar>
-      <SidebarContent className="!bg-[#101928]  ">
-        <SidebarGroup className="">
+      <SidebarContent className="!bg-primary ">
+        <SidebarGroup>
           <SidebarGroupContent>
-            <SidebarMenu className="flex flex-col justify-between w-full h-screen overflow-hidden">
-              {/* Logo Section */}
-              <div className="flex-shrink-0">
-                <Image src="/logoo.png" height={100} width={100} alt="Logo" />
-              </div>
-
+            <SidebarMenu className="flex flex-col gap-32 justify-betwee">
               {/* Main Navigation Links */}
+              {/* Logo Section */}
               <main className="flex flex-col gap-2 flex-grow overflow-y-auto">
+                <div className=" p-3">
+                  <Image src="/logoo.png" height={100} width={100} alt="Logo" />
+                </div>
                 <UserSidebar href="/" icon={<GoHome />} label="DashBoard" />
                 <UserSidebar
                   href="/transaction"
