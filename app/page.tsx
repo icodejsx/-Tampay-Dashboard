@@ -71,7 +71,6 @@ export default function Home() {
         </div>
       </main>
 
-      {/* transaction chart */}
       <main className=" grid grid-cols-6 gap-4 ">
         <div className="flex col-span-4 flex-col  items-center justify-between">
           <div className="flex flex-row justify-between items-center w-full">
